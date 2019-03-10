@@ -16,6 +16,6 @@
         }
     },
     "require": {
-        "webdevstudios/oops-wp": "^0.1.0"
+        "webdevstudios/oops-wp": "dev-develop"
     }
 }
