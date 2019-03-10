@@ -9,6 +9,7 @@
 
 namespace JMichaelWard\IntoTheVoid;
 
+use JMichaelWard\IntoTheVoid\Content\ContentRegistrar;
 use WebDevStudios\OopsWP\Structure\ServiceRegistrar;
 
 /**
@@ -19,5 +20,7 @@ use WebDevStudios\OopsWP\Structure\ServiceRegistrar;
  * @since   2019-03-10
  */
 class IntoTheVoid extends ServiceRegistrar {
-
+	protected $services = [
+		ContentRegistrar::class,
+	];
 }
