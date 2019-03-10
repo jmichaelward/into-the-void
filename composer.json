@@ -14,5 +14,8 @@
         "psr-4": {
             "JMichaelWard\\TheVoid\\": "src/"
         }
+    },
+    "require": {
+        "webdevstudios/oops-wp": "^0.1.0"
     }
 }

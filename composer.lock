@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "cfedb9ab4eed72345bfa73cd448e6156",
+    "packages": [
+        {
+            "name": "webdevstudios/oops-wp",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WebDevStudios/oops-wp.git",
+                "reference": "bf20cfc51f11719ac4d2332516ebc921b6e4a32b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WebDevStudios/oops-wp/zipball/bf20cfc51f11719ac4d2332516ebc921b6e4a32b",
+                "reference": "bf20cfc51f11719ac4d2332516ebc921b6e4a32b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WebDevStudios\\OopsWP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Ward",
+                    "email": "jeremy.ward@webdevstudios.com",
+                    "role": "Senior Backend Engineer"
+                }
+            ],
+            "description": "A collection of interfaces and class structures to promote object-oriented programming practices in WordPress.",
+            "time": "2019-02-22T03:25:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
