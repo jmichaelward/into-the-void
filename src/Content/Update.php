@@ -28,6 +28,8 @@ class Update extends PostType {
 	protected $slug = 'void-updates';
 
 	/**
+	 * Get arguments for this post type.
+	 *
 	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
 	 * @since  2019-03-10
 	 * @return array
