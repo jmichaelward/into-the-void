@@ -1,6 +1,6 @@
 <?php
 /**
- *
+ * The main plugin class.
  *
  * @author  Jeremy Ward <jeremy.ward@webdevstudios.com>
  * @package JMichaelWard\IntoTheVoid
@@ -8,6 +8,7 @@
  */
 
 namespace JMichaelWard\IntoTheVoid;
+
 use WebDevStudios\OopsWP\Structure\ServiceRegistrar;
 
 /**
