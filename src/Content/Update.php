@@ -1,6 +1,6 @@
 <?php
 /**
- *
+ * Register the void-update post type.
  *
  * @author  Jeremy Ward <jeremy.ward@webdevstudios.com>
  * @package JMichaelWard\IntoTheVoid\Update
