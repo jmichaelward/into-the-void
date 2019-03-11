@@ -21,7 +21,7 @@ use WebDevStudios\OopsWP\Structure\Service;
  */
 class ContentRegistrar extends Service {
 	protected $content_types = [
-		Update::class,
+		Shout::class,
 	];
 
 	public function register_hooks() {
