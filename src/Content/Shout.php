@@ -36,10 +36,14 @@ class Shout extends PostType {
 	 */
 	protected function get_args(): array {
 		return [
-			'public'       => false,
-			'supports'     => [ 'editor' ],
-			'show_ui'      => false,
-			'show_in_rest' => false,
+			'public'                => false,
+			'supports'              => [ 'editor', 'author' ],
+			'show_ui'               => false,
+			'show_in_rest'          => false,
+			'exclude_from_search'   => true,
+			'delete_with_user'      => true,
+			'rest_base'             => 'shout',
+			'rest_controller_class' => \JMichaelWard\IntoTheVoid\Api\Route\Shout::class,
 		];
 	}
 
