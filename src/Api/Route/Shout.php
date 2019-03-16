@@ -1,6 +1,8 @@
 <?php
 /**
+ * Shout API Route.
  *
+ * This class registers a REST route for the Shout resource.
  *
  * @author  Jeremy Ward <jeremy.ward@webdevstudios.com>
  * @package JMichaelWard\IntoTheVoid\Api\Route
@@ -13,7 +15,7 @@ use JMichaelWard\IntoTheVoid\Api\Route;
 use WP_REST_Server;
 
 /**
- * Class Void
+ * Class Shout
  *
  * @author  Jeremy Ward <jeremy.ward@webdevstudios.com>
  * @package JMichaelWard\IntoTheVoid\Api\Route
@@ -33,7 +35,6 @@ class Shout extends Route {
 	 *
 	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
 	 * @since  2019-03-10
-	 * @return void
 	 */
 	public function register_routes() {
 		register_rest_route(
@@ -87,7 +88,9 @@ class Shout extends Route {
 	}
 
 	/**
-	 * @param \WP_REST_Request $request
+	 * @param \WP_REST_Request $request The WordPress REST Request object.
+	 *
+	 * @TODO Implement this method.
 	 *
 	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
 	 * @since  2019-03-10
@@ -98,7 +101,7 @@ class Shout extends Route {
 	}
 
 	/**
-	 * @param \WP_REST_Request $request
+	 * @param \WP_REST_Request $request The WordPress REST Request object.
 	 *
 	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
 	 * @since  2019-03-10
@@ -142,7 +145,7 @@ class Shout extends Route {
 	 * @since  2019-03-10
 	 * @return bool
 	 */
-	public function validate_content( string $content ) {
+	public function validate_content( string $content ) : bool {
 		return ! empty( $content );
 	}
 
@@ -153,7 +156,7 @@ class Shout extends Route {
 	 *
 	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
 	 * @since  2019-03-10
-	 * @return mixed
+	 * @return string
 	 */
 	public function sanitize_content( string $content ) : string {
 		return filter_var( $content, FILTER_SANITIZE_STRING );

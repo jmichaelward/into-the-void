@@ -51,7 +51,6 @@ abstract class Route extends \WP_REST_Controller implements Registerable {
 	 *
 	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
 	 * @since  2019-03-10
-	 * @return void
 	 */
 	public function register() {
 		$this->register_routes();

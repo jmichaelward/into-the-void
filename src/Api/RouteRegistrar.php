@@ -35,7 +35,6 @@ class RouteRegistrar extends Service {
 	 *
 	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
 	 * @since  2019-03-10
-	 * @return void
 	 */
 	public function register_hooks() {
 		add_action( 'rest_api_init', [ $this, 'register_routes' ] );
@@ -46,7 +45,6 @@ class RouteRegistrar extends Service {
 	 *
 	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
 	 * @since  2019-03-10
-	 * @return void
 	 */
 	public function register_routes() {
 		foreach ( $this->routes as $route_class ) {
@@ -61,7 +59,6 @@ class RouteRegistrar extends Service {
 	 *
 	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
 	 * @since  2019-03-10
-	 * @return void
 	 */
 	private function register_route( Route $route ) {
 		$route->register();
