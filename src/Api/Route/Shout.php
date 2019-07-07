@@ -46,19 +46,8 @@ class Shout extends Route {
 					'callback' => [ $this, 'get_items' ],
 				],
 				[
-					'methods'             => WP_REST_Server::CREATABLE,
-					'callback'            => [ $this, 'create_item' ],
-					'permission_callback' => [ $this, 'create_item_permissions_check' ],
-					'args'                => [
-						'token'   => [
-							'type'                => 'string',
-							'validation_callback' => 'sanitize_title',
-						],
-						'content' => [
-							'required'            => true,
-							'validation_callback' => [ $this, 'validate_content' ],
-						],
-					],
+					'methods'  => WP_REST_Server::CREATABLE,
+					'callback' => [ $this, 'create_item' ],
 				],
 			]
 		);
@@ -74,30 +63,19 @@ class Shout extends Route {
 	 * @return \WP_Error|\WP_REST_Response
 	 */
 	public function create_item( $request ) {
+		$data = $request->get_param( 'data' );
+
 		$id = wp_insert_post( [
 			'post_type'    => 'void-shout',
-			'post_content' => $request->get_param( 'content' ),
+			'post_content' => $data['content'],
 			'post_status'  => 'publish',
 		] );
 
 		if ( $id ) {
-			return new \WP_REST_Response( 'Shout created.' );
+			return new \WP_REST_Response( [ 'status' => $data['content'] ] );
 		}
 
 		return new \WP_Error( 'Could not create shout. Try again later.' );
-	}
-
-	/**
-	 * @param \WP_REST_Request $request The WordPress REST Request object.
-	 *
-	 * @TODO Implement this method.
-	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
-	 * @since  2019-03-10
-	 * @return bool|\WP_Error
-	 */
-	public function create_item_permissions_check( $request ) {
-		return true;
 	}
 
 	/**
