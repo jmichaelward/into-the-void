@@ -15,7 +15,14 @@
             "JMichaelWard\\IntoTheVoid\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
     "require": {
-        "webdevstudios/oops-wp": "dev-develop"
+        "webdevstudios/oops-wp": "^0.2.0",
+        "wpackagist-plugin/jwt-authentication-for-wp-rest-api": "^1.2"
     }
 }
