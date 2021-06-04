@@ -10,6 +10,7 @@
 namespace JMichaelWard\IntoTheVoid\Content;
 
 use WebDevStudios\OopsWP\Structure\Content\PostType;
+use JMichaelWard\IntoTheVoid\Api\Route\Shout as ShoutRoute;
 
 /**
  * Class Update
@@ -43,7 +44,7 @@ class Shout extends PostType {
 			'exclude_from_search'   => true,
 			'delete_with_user'      => true,
 			'rest_base'             => 'shout',
-			'rest_controller_class' => \JMichaelWard\IntoTheVoid\Api\Route\Shout::class,
+			'rest_controller_class' => ShoutRoute::class,
 		];
 	}
 
