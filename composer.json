@@ -22,8 +22,8 @@
         }
     ],
     "require": {
-        "webdevstudios/oops-wp": "^0.2.0",
+        "webdevstudios/oops-wp": "^0.3.0",
         "wpackagist-plugin/jwt-authentication-for-wp-rest-api": "^1.2",
-        "composer/installers": "^1.6"
+        "composer/installers": "^1.11"
     }
 }
