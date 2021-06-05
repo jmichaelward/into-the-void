@@ -2,7 +2,7 @@
 /**
  * The main plugin class.
  *
- * @author  Jeremy Ward <jeremy.ward@webdevstudios.com>
+ * @author  Jeremy Ward <jeremy@jmichaelward.com>
  * @package JMichaelWard\IntoTheVoid
  * @since   2019-03-10
  */
@@ -16,7 +16,7 @@ use WebDevStudios\OopsWP\Structure\ServiceRegistrar;
 /**
  * Class IntoTheVoid
  *
- * @author  Jeremy Ward <jeremy.ward@webdevstudios.com>
+ * @author  Jeremy Ward <jeremy@jmichaelward.com>
  * @package JMichaelWard\IntoTheVoid
  * @since   2019-03-10
  */

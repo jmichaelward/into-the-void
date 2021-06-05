@@ -4,7 +4,7 @@
  *
  * This class handles registration of WordPress content objects.
  *
- * @author  Jeremy Ward <jeremy.ward@webdevstudios.com>
+ * @author  Jeremy Ward <jeremy@jmichaelward.com>
  * @package JMichaelWard\IntoTheVoid\Content
  * @since   2019-03-10
  */
@@ -17,7 +17,7 @@ use WebDevStudios\OopsWP\Structure\Service;
 /**
  * Class ContentRegistrar
  *
- * @author  Jeremy Ward <jeremy.ward@webdevstudios.com>
+ * @author  Jeremy Ward <jeremy@jmichaelward.com>
  * @package JMichaelWard\IntoTheVoid\Content
  * @since   2019-03-10
  */
@@ -35,7 +35,7 @@ class ContentRegistrar extends Service {
 	/**
 	 * Register service hooks with WordPress.
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-03-16
 	 */
 	public function register_hooks() {
@@ -45,7 +45,7 @@ class ContentRegistrar extends Service {
 	/**
 	 * Register content types with WordPress.
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-03-16
 	 */
 	public function register_content_types() {
@@ -59,7 +59,7 @@ class ContentRegistrar extends Service {
 	 *
 	 * @param ContentType $content_type Instantiated ContentType.
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-03-10
 	 */
 	private function register_content_type( ContentType $content_type ) {

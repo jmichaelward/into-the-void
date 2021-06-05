@@ -5,7 +5,7 @@
  * Author: Jeremy Ward
  * Author URI: https://jmichaelward.com
  *
- * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+ * @author Jeremy Ward <jeremy@jmichaelward.com>
  * @since  2019-03-10
  */
 

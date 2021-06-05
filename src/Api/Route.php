@@ -2,7 +2,7 @@
 /**
  * Abstract Route class.
  *
- * @author  Jeremy Ward <jeremy.ward@webdevstudios.com>
+ * @author  Jeremy Ward <jeremy@jmichaelward.com>
  * @package JMichaelWard\IntoTheVoid\Api
  * @since   2019-03-10
  */
@@ -14,7 +14,7 @@ use WebDevStudios\OopsWP\Utility\Registerable;
 /**
  * Class Route
  *
- * @author  Jeremy Ward <jeremy.ward@webdevstudios.com>
+ * @author  Jeremy Ward <jeremy@jmichaelward.com>
  * @package JMichaelWard\IntoTheVoid\Api
  * @since   2019-03-10
  */
@@ -38,7 +38,7 @@ abstract class Route extends \WP_REST_Controller implements Registerable {
 	/**
 	 * Get the namespaced version of this route.
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-03-10
 	 * @return string
 	 */
@@ -49,7 +49,7 @@ abstract class Route extends \WP_REST_Controller implements Registerable {
 	/**
 	 * Register this route.
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-03-10
 	 */
 	public function register() {

@@ -2,7 +2,7 @@
 /**
  * Register the void-shout post type.
  *
- * @author  Jeremy Ward <jeremy.ward@webdevstudios.com>
+ * @author  Jeremy Ward <jeremy@jmichaelward.com>
  * @package JMichaelWard\IntoTheVoid\Content
  * @since   2019-03-10
  */
@@ -15,7 +15,7 @@ use JMichaelWard\IntoTheVoid\Api\Route\Shout as ShoutRoute;
 /**
  * Class Update
  *
- * @author  Jeremy Ward <jeremy.ward@webdevstudios.com>
+ * @author  Jeremy Ward <jeremy@jmichaelward.com>
  * @package JMichaelWard\IntoTheVoid\Shout
  * @since   2019-03-10
  */
@@ -31,7 +31,7 @@ class Shout extends PostType {
 	/**
 	 * Get arguments for this post type.
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-03-10
 	 * @return array
 	 */
@@ -49,7 +49,7 @@ class Shout extends PostType {
 	}
 
 	/**
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-03-10
 	 * @return array
 	 */

@@ -4,7 +4,7 @@
  *
  * This class registers a REST route for the Shout resource.
  *
- * @author  Jeremy Ward <jeremy.ward@webdevstudios.com>
+ * @author  Jeremy Ward <jeremy@jmichaelward.com>
  * @package JMichaelWard\IntoTheVoid\Api\Route
  * @since   2019-03-10
  */
@@ -17,7 +17,7 @@ use WP_REST_Server;
 /**
  * Class Shout
  *
- * @author  Jeremy Ward <jeremy.ward@webdevstudios.com>
+ * @author  Jeremy Ward <jeremy@jmichaelward.com>
  * @package JMichaelWard\IntoTheVoid\Api\Route
  * @since   2019-03-10
  */
@@ -33,7 +33,7 @@ class Shout extends Route {
 	/**
 	 * Register endpoints for this route.
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-03-10
 	 */
 	public function register_routes() {
@@ -58,7 +58,7 @@ class Shout extends Route {
 	 *
 	 * @param \WP_REST_Request $request The WordPress request object.
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-03-10
 	 * @return \WP_Error|\WP_REST_Response
 	 */
@@ -81,7 +81,7 @@ class Shout extends Route {
 	/**
 	 * @param \WP_REST_Request $request The WordPress REST Request object.
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-03-10
 	 * @return \WP_Error|\WP_REST_Response
 	 */
@@ -102,7 +102,7 @@ class Shout extends Route {
 	 *
 	 * @param \WP_Post $post A WordPress post object.
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-03-10
 	 * @return array
 	 */
@@ -119,7 +119,7 @@ class Shout extends Route {
 	 *
 	 * @param string $content The content submitted via the API.
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-03-10
 	 * @return bool
 	 */
@@ -132,7 +132,7 @@ class Shout extends Route {
 	 *
 	 * @param string $content The submitted content.
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-03-10
 	 * @return string
 	 */

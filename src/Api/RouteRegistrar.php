@@ -2,7 +2,7 @@
 /**
  * This class is responsible for registering the plugin's API service.
  *
- * @author  Jeremy Ward <jeremy.ward@webdevstudios.com>
+ * @author  Jeremy Ward <jeremy@jmichaelward.com>
  * @package JMichaelWard\IntoTheVoid\Api
  * @since   2019-03-10
  */
@@ -15,7 +15,7 @@ use WebDevStudios\OopsWP\Structure\Service;
 /**
  * Class RouteRegistrar
  *
- * @author  Jeremy Ward <jeremy.ward@webdevstudios.com>
+ * @author  Jeremy Ward <jeremy@jmichaelward.com>
  * @package JMichaelWard\IntoTheVoid\Api
  * @since   2019-03-10
  */
@@ -33,7 +33,7 @@ class RouteRegistrar extends Service {
 	/**
 	 * Register this service with WordPress.
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-03-10
 	 */
 	public function register_hooks() {
@@ -43,7 +43,7 @@ class RouteRegistrar extends Service {
 	/**
 	 * Register the API routes provided by this service.
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-03-10
 	 */
 	public function register_routes() {
@@ -57,7 +57,7 @@ class RouteRegistrar extends Service {
 	 *
 	 * @param Route $route Concrete instance of a Route object.
 	 *
-	 * @author Jeremy Ward <jeremy.ward@webdevstudios.com>
+	 * @author Jeremy Ward <jeremy@jmichaelward.com>
 	 * @since  2019-03-10
 	 */
 	private function register_route( Route $route ) {
